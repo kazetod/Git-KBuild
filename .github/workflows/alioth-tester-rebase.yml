@@ -233,8 +233,8 @@ jobs:
           export PATH="$(pwd)/clang/bin:$PATH"
           export ARCH=arm64
           export SUBARCH=ARM64
-          export KBUILD_BUILD_USER="kazemi"
-          export KBUILD_BUILD_HOST="asamiya"
+          export KBUILD_BUILD_USER="kaze"
+          export KBUILD_BUILD_HOST="tokisaki"
           export KBUILD_BUILD_TIMESTAMP="$(TZ=UTC-7 date)"
           cd kernel_tree
           make O=out vendor/alioth_defconfig
