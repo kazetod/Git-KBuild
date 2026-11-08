@@ -1,4 +1,4 @@
-name: FD-tester-alioth-builder
+name: SK-tester-alioth-builder
 
 on:
   pull_request:
